@@ -1,0 +1,26 @@
+﻿#title .monitorLabel {
+	
+}
+#title .monitorContainer {
+	margin-top: 10px;
+	width:100px;
+	position: absolute;
+	right: 20%;
+}
+#title .monitorProgressContainer {
+	margin-top:3px;
+	opacity: 0.2;
+	width: 40%;
+	min-width: 40%;
+	max-width: 40%;
+	right: 0;
+	position:absolute;
+	height: 50%;
+	background-color:#141414
+}
+#title .monitorProgress {
+	height:100%;
+	position:absolute;
+	left:0;
+	opacity: 0.4
+}

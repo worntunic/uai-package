@@ -1,0 +1,15 @@
+{
+    "name": "worntunic.uai.editor",
+    "references": [
+        "GUID:ffeb428a00b3bca4db3b3d92f663551e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

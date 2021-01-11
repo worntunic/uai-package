@@ -1,0 +1,22 @@
+{
+  "name": "com.worntunic.uai",
+  "version": "0.1.0",
+  "displayName": "UAI",
+  "description": "Simple Utility AI system for designing AI agents with a visual node-like tool. Aim of the UAI is to give game designers and AI designers more control when creating AI, especially during the tweaking phase.",
+  "unity": "2019.3",
+  "unityRelease": "2f1",
+  "dependencies": {
+    "com.unity.ugui": "1.0.0"
+  },
+  "keywords": [
+    "ai",
+    "utility",
+    "agent"
+  ],
+  "author": {
+    "name": "Lazar Toni\u0107",
+    "email": "tonic.lazar@gmail.com",
+    "url": "https://github.com/worntunic"
+  },
+  "type": "tool"
+}

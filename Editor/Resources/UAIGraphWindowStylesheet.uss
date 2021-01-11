@@ -1,0 +1,8 @@
+﻿Toolbar {
+	background-color: rgba(28,28,28,0.7);
+	margin-bottom: 0px;
+	height: 30px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-bottom-width:0px;
+}
