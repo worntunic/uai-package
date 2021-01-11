@@ -6,7 +6,7 @@ This system is only for the decision making part of the AI.
 ## How to install
 1. In Unity, open Package Manager.
 2. Click the little '+' icon in the top left and then "Add package from git URL..."
-3. Copy and paste "https://github.com/worntunic/uai-package" into the text box and click "Add"
+3. Copy and paste "https://github.com/worntunic/uai-package.git" into the text box and click "Add"
 
 ##How to use
 ### Necessary files
