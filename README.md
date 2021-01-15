@@ -5,6 +5,8 @@ This system is only for the decision making part of the AI.
 
 This is a package git - for the development git page, go to https://github.com/worntunic/uai
 
+![UAI Editor in Action](mdimages/ActiveEditor.PNG "UAI Editor in Action")
+
 ## How to install
 1. In Unity, open Package Manager.
 2. Click the little '+' icon in the top left and then "Add package from git URL..."
@@ -16,6 +18,8 @@ For your agent you'll need to create 2 scriptable objects:
 
 1. In the Project window, click on the context menu option "Create/UAI/Context". This will open up inspector window with your agent's context file, where you can define which properties does agent use to make decisions (string keys) and which actions can agent take (also string keys).
 2. In the Project window, click on the context menu option "Create/UAI/New Utility AI". This creates a UAIGraphData file and will open up inspector window of your agent's Utility AI System. For "Context" choose or drag your previously created Context file. Everything below shouldn't be edited from here, but yeah it's v0.1 whatyougonnadoaboutit. Click on the top-most button "Load Graph Editor". This will open the Utility AI Editor window where you can create your agent's Utility system.
+
+![A few nodes in UAI graph](mdimages/UAISample.PNG "A few nodes in UAI graph")
 
 ### Using Utility AI Editor
 
@@ -78,6 +82,8 @@ Whenever you want agent to make a decision, you should call `Decide(Context cont
 bunnyContext.UpdateContext();
 string newActionName = bunnyDecider.Decide(bunnyContext);
 ```
+
+![Demo Bunny Agent with active UAI](mdimages/BunnyDemo.gif "Demo Bunny Agent with active UAI")
 
 ## How does it work
 
